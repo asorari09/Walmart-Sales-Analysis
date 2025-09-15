@@ -1,4 +1,7 @@
-# Walmart-Sales-Analysis
-Analysis of weekly sales data from Walmart
-- **Cleaned output**: [`walmart_sales_clean.csv`](https://drive.google.com/file/d/14H8O8Q_gZDSh10nUrls2UvxeM8Pf0061/view?usp=drive_link) (hosted on Google Drive, ~66.4 MB)  
-  - If you’d like to regenerate it locally, run `notebooks/01_walmart_prep.ipynb` with the original Kaggle raw files.
+## Data
+- Source: [Kaggle Competition – Walmart Recruiting: Store Sales Forecasting](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data)
+- Note: Due to Kaggle’s terms of use, the raw dataset and the cleaned CSV are **not included** in this repo.
+- To reproduce the cleaned dataset (`walmart_sales_clean.csv`):
+  1. Download `train.csv`, `features.csv`, and `stores.csv` from Kaggle (link above).
+  2. Run `notebooks/01_walmart_prep.ipynb`.
+  3. The script will output `walmart_sales_clean.csv` into the `Walmart_outputs` folder.
