@@ -1,0 +1,21 @@
+Column,Description
+Store,Store number (1-45)
+Dept,Department number within store
+Date,Week ending date (datetime)
+Weekly_Sales,Weekly sales for store-department
+IsHoliday,Holiday week flag (True/False)
+Temperature,Avg temperature in the week
+Fuel_Price,Regional fuel price
+MarkDown1-5,Anonymized promotional markdowns
+CPI,Consumer Price Index
+Unemployment,Regional unemployment rate
+Type,Store type (A/B/C)
+Size,Store size (sq ft)
+Year,Year extracted from Date
+Month,Month number (1-12)
+Month_Name,Month name
+Week,ISO week number
+Quarter,Quarter (1-4)
+Sales_Per_SqFt,Weekly_Sales / Size
+Total_Markdowns,Sum of MarkDown1..5
+Holiday_Period,Holiday vs Regular label
